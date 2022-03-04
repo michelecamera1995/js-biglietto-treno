@@ -27,7 +27,7 @@ if (età >= 65) {
 
 // Calcolo sconto prezzo biglietto
 
-document.getElementById("nome").innerHTML = nome;
+document.getElementById("nome").innerHTML = nome + '<span>' + password + '</span>';
 
 document.getElementById("età").innerHTML = età;
 
