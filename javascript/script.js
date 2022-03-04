@@ -18,19 +18,19 @@ const prezzo65 = Number(42 - 16.8);
 
 
 if (età <= 18) {
-    document.getElementById("prezzo").innerHTML = prezzo18
+    document.getElementById("prezzo").innerHTML = prezzo18;
 }
 
 if (età >= 65) {
-    document.getElementById("prezzo").innerHTML = prezzo65
+    document.getElementById("prezzo").innerHTML = prezzo65;
 }
 
 // Calcolo sconto prezzo biglietto
 
-document.getElementById("nome").innerHTML = nome
+document.getElementById("nome").innerHTML = nome;
 
-document.getElementById("età").innerHTML = età
+document.getElementById("età").innerHTML = età;
 
-document.getElementById("km").innerHTML = km
+document.getElementById("km").innerHTML = km;
 
-document.getElementById("prezzo").innerHTML = prezzo
+document.getElementById("prezzo").innerHTML = prezzo;
